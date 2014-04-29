@@ -1,0 +1,45 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+// @import "compass/reset";
+
+html, body {
+	height: 100%;
+}
+
+.starter-template {
+	padding: 10px 10px;
+	text-align: center;
+	height: 95%;
+	margin:20px 0; 
+}
+
+	
+.content-container {
+	position: relative;
+	height: 90%;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+#map-canvas {
+	height:50%;
+	width:50%;
+	position: relative;
+	margin: auto;
+}
+
+.map-results {
+	display: inline-block;
+	height: 40%;
+	overflow-y: scroll;
+	width: 50%;
+	float: left;
+}
+
+div#business-info.map-results {
+	overflow-y: auto;
+	height: 50%;
+}

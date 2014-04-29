@@ -1,0 +1,47 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 8, ../sass/screen.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../sass/screen.scss */
+.starter-template {
+  padding: 10px 10px;
+  text-align: center;
+  height: 95%;
+  margin: 20px 0;
+}
+
+/* line 20, ../sass/screen.scss */
+.content-container {
+  position: relative;
+  height: 90%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* line 27, ../sass/screen.scss */
+#map-canvas {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* line 34, ../sass/screen.scss */
+.map-results {
+  display: inline-block;
+  height: 40%;
+  overflow-y: scroll;
+  width: 50%;
+  float: left;
+}
+
+/* line 42, ../sass/screen.scss */
+div#business-info.map-results {
+  overflow-y: auto;
+  height: 50%;
+}
