@@ -322,12 +322,12 @@ $(function() {
                 dataType: 'jsonp',
                 // jsonpCallback: 'cb',
                 success: function(data, textStats, XMLHttpRequest) {
-                    Globaladdresses = cb(data);
-                    console.log(Globaladdresses);
                 }
             })
-                .then(function() {
+                .then(function(data) {
                     console.log("success");
+                    Globaladdresses = cb(data);
+                    console.log(Globaladdresses);
                 })
                 .done(function() {
                     console.log("error");
